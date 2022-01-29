@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate {
+class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +31,15 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     }
 
     @IBAction func shareAction(_ sender: Any) {
+        // サイズが大きすぎるとSNS側で投稿時に画面が落ちてしまうので、5MB以内にリサイズする
+        if let sharedImage = photoImage.image?.fixedOrientation()?.resizeImage(maxSize: 5 * 1024 * 1024) {
+            // 投稿用の配列の入れ物を用意
+            let sharedItems = [sharedImage]
+            let controller = UIActivityViewController(activityItems: sharedItems, applicationActivities: nil)
+            controller.popoverPresentationController?.sourceView = view // iPad対策らしい
+            // シェア用のメニューを表示
+            present(controller, animated: true, completion: nil)
+        }
     }
 
     // 写真を撮った後に呼ばれる delegate
