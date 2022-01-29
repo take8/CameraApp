@@ -442,6 +442,7 @@
 				DEVELOPMENT_TEAM = BDT5DDRGRS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラにアクセスする";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +471,7 @@
 				DEVELOPMENT_TEAM = BDT5DDRGRS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラにアクセスする";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
