@@ -16,5 +16,7 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var photoImage: UIImageView!
+    @IBAction func cameraLaunchAction(_ sender: Any) {
+    }
 }
 
