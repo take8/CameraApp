@@ -16,20 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hri-ue-x4e">
-                                <rect key="frame" x="40" y="384" width="334" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hri-ue-x4e">
+                                <rect key="frame" x="40" y="74" width="334" height="638"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jr3-g4-z3l">
-                                <rect key="frame" x="40" y="595" width="334" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jr3-g4-z3l">
+                                <rect key="frame" x="40" y="742" width="334" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="XLt-MQ-SDk"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="カメラを起動"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzq-Sp-MXW">
-                                <rect key="frame" x="168" y="696" width="81" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzq-Sp-MXW">
+                                <rect key="frame" x="40" y="802" width="334" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WKn-mU-VnT"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SNS投稿"/>
                             </button>
@@ -37,11 +39,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Pzq-Sp-MXW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="6cO-s3-BuT"/>
                             <constraint firstItem="hri-ue-x4e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BiU-gd-j66"/>
                             <constraint firstItem="hri-ue-x4e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="D7M-8K-lzi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jr3-g4-z3l" secondAttribute="trailing" constant="40" id="FK2-Or-7Mo"/>
+                            <constraint firstItem="Pzq-Sp-MXW" firstAttribute="top" secondItem="jr3-g4-z3l" secondAttribute="bottom" constant="30" id="GYP-Dk-E5N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hri-ue-x4e" secondAttribute="trailing" constant="40" id="GZM-1C-hr3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pzq-Sp-MXW" secondAttribute="trailing" constant="40" id="kaC-AC-jsh"/>
                             <constraint firstItem="jr3-g4-z3l" firstAttribute="top" secondItem="hri-ue-x4e" secondAttribute="bottom" constant="30" id="kkM-EU-F2P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pzq-Sp-MXW" secondAttribute="bottom" constant="30" id="vdZ-OO-ns2"/>
                             <constraint firstItem="jr3-g4-z3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="xDA-p9-NpN"/>
                         </constraints>
                     </view>
