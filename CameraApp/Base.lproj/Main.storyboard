@@ -53,6 +53,9 @@
                             <constraint firstItem="jr3-g4-z3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="xDA-p9-NpN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="photoImage" destination="hri-ue-x4e" id="orw-AO-iQ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
