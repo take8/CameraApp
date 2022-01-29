@@ -31,7 +31,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     }
 
     @IBAction func shareAction(_ sender: Any) {
-        if let sharedImage = photoImage.image {
+        // サイズが大きすぎるとSNS側で投稿時に画面が落ちてしまうので、5MB以内にリサイズする
+        if let sharedImage = photoImage.image?.fixedOrientation()?.resizeImage(maxSize: 5 * 1024 * 1024) {
             // 投稿用の配列の入れ物を用意
             let sharedItems = [sharedImage]
             let controller = UIActivityViewController(activityItems: sharedItems, applicationActivities: nil)
