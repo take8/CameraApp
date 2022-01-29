@@ -19,9 +19,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hri-ue-x4e">
                                 <rect key="frame" x="40" y="384" width="334" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jr3-g4-z3l">
-                                <rect key="frame" x="153" y="595" width="110" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jr3-g4-z3l">
+                                <rect key="frame" x="40" y="595" width="334" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XLt-MQ-SDk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="カメラを起動"/>
                             </button>
@@ -37,7 +39,10 @@
                         <constraints>
                             <constraint firstItem="hri-ue-x4e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="BiU-gd-j66"/>
                             <constraint firstItem="hri-ue-x4e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="D7M-8K-lzi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jr3-g4-z3l" secondAttribute="trailing" constant="40" id="FK2-Or-7Mo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hri-ue-x4e" secondAttribute="trailing" constant="40" id="GZM-1C-hr3"/>
+                            <constraint firstItem="jr3-g4-z3l" firstAttribute="top" secondItem="hri-ue-x4e" secondAttribute="bottom" constant="30" id="kkM-EU-F2P"/>
+                            <constraint firstItem="jr3-g4-z3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="xDA-p9-NpN"/>
                         </constraints>
                     </view>
                 </viewController>
