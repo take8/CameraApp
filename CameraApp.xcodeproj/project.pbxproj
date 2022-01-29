@@ -16,6 +16,7 @@
 		B8856E6027A51871000611BA /* CameraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E5F27A51871000611BA /* CameraAppTests.swift */; };
 		B8856E6A27A51871000611BA /* CameraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E6927A51871000611BA /* CameraAppUITests.swift */; };
 		B8856E6C27A51871000611BA /* CameraAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E6B27A51871000611BA /* CameraAppUITestsLaunchTests.swift */; };
+		B8856E7B27A54585000611BA /* UIImage+Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E7A27A54585000611BA /* UIImage+Edit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B8856E6527A51871000611BA /* CameraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8856E6927A51871000611BA /* CameraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppUITests.swift; sourceTree = "<group>"; };
 		B8856E6B27A51871000611BA /* CameraAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8856E7A27A54585000611BA /* UIImage+Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Edit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				B8856E4827A5186E000611BA /* AppDelegate.swift */,
 				B8856E4A27A5186E000611BA /* SceneDelegate.swift */,
+				B8856E7A27A54585000611BA /* UIImage+Edit.swift */,
 				B8856E4C27A5186E000611BA /* ViewController.swift */,
 				B8856E4E27A5186E000611BA /* Main.storyboard */,
 				B8856E5127A51871000611BA /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 				B8856E4D27A5186E000611BA /* ViewController.swift in Sources */,
 				B8856E4927A5186E000611BA /* AppDelegate.swift in Sources */,
 				B8856E4B27A5186E000611BA /* SceneDelegate.swift in Sources */,
+				B8856E7B27A54585000611BA /* UIImage+Edit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
