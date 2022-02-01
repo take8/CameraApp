@@ -17,6 +17,7 @@
 		B8856E6A27A51871000611BA /* CameraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E6927A51871000611BA /* CameraAppUITests.swift */; };
 		B8856E6C27A51871000611BA /* CameraAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E6B27A51871000611BA /* CameraAppUITestsLaunchTests.swift */; };
 		B8856E7B27A54585000611BA /* UIImage+Edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E7A27A54585000611BA /* UIImage+Edit.swift */; };
+		B8F5BE7C27A998AC0048D982 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8F5BE7B27A998AC0048D982 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B8856E6927A51871000611BA /* CameraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppUITests.swift; sourceTree = "<group>"; };
 		B8856E6B27A51871000611BA /* CameraAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8856E7A27A54585000611BA /* UIImage+Edit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Edit.swift"; sourceTree = "<group>"; };
+		B8F5BE7B27A998AC0048D982 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		B8856E3C27A5186E000611BA = {
 			isa = PBXGroup;
 			children = (
+				B8F5BE7B27A998AC0048D982 /* README.md */,
 				B8856E4727A5186E000611BA /* CameraApp */,
 				B8856E5E27A51871000611BA /* CameraAppTests */,
 				B8856E6827A51871000611BA /* CameraAppUITests */,
@@ -236,6 +239,7 @@
 			files = (
 				B8856E5527A51871000611BA /* LaunchScreen.storyboard in Resources */,
 				B8856E5227A51871000611BA /* Assets.xcassets in Resources */,
+				B8F5BE7C27A998AC0048D982 /* README.md in Resources */,
 				B8856E5027A5186E000611BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
